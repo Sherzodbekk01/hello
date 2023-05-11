@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    height: 100vh;
+    width: 100vw;
+    background: #332e2e;
+}
+
+
+#container {
+    width: 80%;
+    height: 80%;
+    margin: 0 auto;
+    display: flex;  
+}
+ 
+
+
+.para-1 {
+    left: 200px;
+    margin-top: 300px;
+    position: relative;
+    animation-name: toRight;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-delay: 1s;
+    font-size: 80px;
+    color: green;
+    font-style: bold;
+    
+}
+
+
+.para-2 {
+    left: 200px;
+    margin-top: 300px;
+    position: relative;
+    animation-name: toRight;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-delay: 1.5s;
+    font-size: 80px;
+    color: red;
+    font-style: bold;
+    
+}
+
+
+.para-3 {
+    left: 200px;
+    margin-top: 300px;
+    position: relative;
+    animation-name: toRight;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-delay: 2s;
+    font-size: 80px;
+    color: coral;
+    font-style: bold;
+    
+}
+
+
+.para-4 {
+    left: 200px;
+    margin-top: 300px;
+    position: relative;
+    animation-name: toRight;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-delay: 2.5s;
+    font-size: 80px;
+    color: #fff;
+    font-style: bold;
+    
+}
+
+
+.para-5 {
+    left: 200px;
+    margin-top: 300px;
+    position: relative;
+    animation-name: toRight;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-delay: 3s;
+    font-size: 80px;
+    color: blue;
+    font-style: bold;
+    
+}
+
+
+@keyframes toRight {
+    0% {
+       top: -310px;
+       left: 200px;
+    }
+
+    40% {
+        left: 200px;
+        top: 0px;
+       
+
+    }
+   
+    
+    70% {
+        left: 200px;
+        top: -10px;
+    }
+ 
+    100% {
+        left: 200px;
+        top: 0px;
+    }
+}
